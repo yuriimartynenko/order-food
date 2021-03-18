@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Hamburger",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et egestas quis ipsum suspendisse ultrices gravida.",
+        "image": "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg",
+        "price": 3,
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "Kebab",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et egestas quis ipsum suspendisse ultrices gravida.",
+        "image": "https://i.pinimg.com/originals/b5/5e/b9/b55eb9e88609282033d0380f154ebf64.jpg",
+        "price": 4,
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "Burger",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et egestas quis ipsum suspendisse ultrices gravida.",
+        "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
+        "price": 3.5,
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Cheeseburger",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et egestas quis ipsum suspendisse ultrices gravida.",
+        "image": "https://i.pinimg.com/originals/8b/61/11/8b611136ead0d4c247f0fef92925f284.jpg",
+        "price": 2,
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Burger",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et egestas quis ipsum suspendisse ultrices gravida.",
+        "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
+        "price": 5,
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "Cola",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et egestas quis ipsum suspendisse ultrices gravida.",
+        "image": "https://images.heb.com/is/image/HEBGrocery/000145352",
+        "price": 1,
+        "quantity": 1
+    }
+]
