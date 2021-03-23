@@ -28,10 +28,9 @@ const mutations = mutationTree(state, {
 })
 
 const actions = actionTree({ state, mutations }, {
-  addNewItem ({ state, commit }, payload: any) {
+  addNewItem ({ state, commit }, payload: { id: number; value: number | undefined }) {
     const isDuplicateFood: any = state.selectedFoods.find((item: IFoods) => item.id === payload.id)
     const foundFood: any = state.foods.find((item: IFoods) => item.id === payload.id)
-
     if (isDuplicateFood) {
       foundFood.quantity = payload.value ? isDuplicateFood.quantity + payload.value : isDuplicateFood.quantity + 1
       commit('SET_QUANTITY_FOODS', foundFood.quantity)

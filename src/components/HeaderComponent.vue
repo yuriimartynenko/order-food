@@ -7,8 +7,10 @@
       >
       <ul class="flex justify-between items-center w-1/4">
         <template v-if="isLoggedIn">
-          <li class="text-grey-400 hover:text-grey-200 transition duration-150 ease-in-out cursor-pointer w-full">
-            Profile
+          <li class="w-full">
+            <router-link class="text-grey-400 hover:text-grey-200 transition duration-150 ease-in-out" to="/profile">
+              Profile
+            </router-link>
           </li>
           <li class="text-grey-400 hover:text-grey-200 transition duration-150 ease-in-out cursor-pointer w-full"
               @click="logout"

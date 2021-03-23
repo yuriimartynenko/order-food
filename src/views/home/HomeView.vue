@@ -54,8 +54,13 @@ export default defineComponent({
       router.push({ path: `/details/${id}` })
     }
 
-    vuex.homeStore.fetchFoods()
-    const items = computed(() => vuex.homeStore.foods)
+    const items = computed(() => {
+      const foods = vuex.homeStore.foods
+      if (!foods.length) {
+        vuex.homeStore.fetchFoods()
+      }
+      return foods
+    })
 
     return {
       addNewItem,

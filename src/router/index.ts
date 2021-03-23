@@ -6,6 +6,7 @@ import { routeGuard } from './route-guard'
 import { homeViewRoutes } from '@/views/home/home.routes'
 import { authRoutes } from '@/views/auth/auth.routes'
 import { cartRoutes } from '@/views/cart/cart.routes'
+import { profileRoutes } from '@/views/profile/profile.routes'
 
 import DefaultLayout from '@/layouts/DefaultLayout.vue'
 
@@ -15,7 +16,11 @@ const routes: Array<RouteRecordRaw> = [
     redirect: { name: routesNames.homeView },
     name: routesNames.rootPage,
     component: DefaultLayout,
-    children: homeViewRoutes
+    children: [
+      ...homeViewRoutes,
+      ...cartRoutes,
+      ...profileRoutes
+    ]
   },
   {
     path: '/auth',
@@ -25,9 +30,8 @@ const routes: Array<RouteRecordRaw> = [
     children: authRoutes
   },
   {
-    path: '/',
+    path: '/profile',
     name: routesNames.cart,
-    redirect: { name: routesNames.cart },
     component: DefaultLayout,
     children: cartRoutes
   }

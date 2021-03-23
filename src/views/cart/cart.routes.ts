@@ -6,7 +6,7 @@ export const cartRouteNames = {
 
 export const cartRoutes: Array<RouteRecordRaw> = [
   {
-    path: 'cart',
+    path: '/cart',
     name: cartRouteNames.cart,
     component: () => import('./Cart.vue')
   }
